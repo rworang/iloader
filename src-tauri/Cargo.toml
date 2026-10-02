@@ -46,3 +46,6 @@ strum = {version = "0.28.0", features = ["derive"] }
 
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
 tauri-plugin-updater = "2"
+
+[patch.crates-io]
+isideload = { git = "https://github.com/rworang/isideload", branch = "fix/legacy-hsa-sms-2fa" }
