@@ -2731,8 +2731,7 @@ dependencies = [
 [[package]]
 name = "isideload"
 version = "0.4.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "46de455a50785bb772f4a1e586420a12861a07f4607fe5b0a5b2507da6a5c4bd"
+source = "git+https://github.com/rworang/isideload?branch=fix%2Flegacy-hsa-sms-2fa-0.4.3#5f99b12a7e508090bc6a0b7b979147384ad9bcb3"
 dependencies = [
  "aes 0.9.3",
  "aes-gcm",
